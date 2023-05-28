@@ -19,6 +19,7 @@ jobs:
         run: |
           yarn install
           yarn build
+          mv build/static public/static
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
