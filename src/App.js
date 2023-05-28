@@ -16,7 +16,7 @@ const App = () => {
 
   // Configs
   const modelName = "yolov8n.onnx";
-  const modelInputShape = [1, 3, 640, 640];
+  const modelInputShape = [1, 3, 1920, 1920];
   const topk = 100;
   const iouThreshold = 0.45;
   const scoreThreshold = 0.25;
