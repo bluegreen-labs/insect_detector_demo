@@ -6,7 +6,13 @@ It demonstrates the high accuracy of finding insects in/on institutional collect
 
 This demon only considers the presence or absence of any insect, not the type of insect in the image. Improvements of the model in this direction can be made, but requires more annotation data (labels). Curently only 16 drawers were used across different orders to train a simple (nano scale) YOLOv8 model (in order to support it to run in a browser). A larger model attained higher accuracies but is not compatible with an online demo.
 
+![](sample.jpeg)
+
 ## Acknowledgements
 
 All credit for the react based webpage goes to Wahyu Setianto, with minor
 changes and automated deployment mine.
+
+## Sample image reference
+
+Mantle et al. (2012). "Whole-drawer imaging for digital management and curation of a large entomological collection". ZooKeys 209: 147. DOI:10.3897/zookeys.209.3169.
