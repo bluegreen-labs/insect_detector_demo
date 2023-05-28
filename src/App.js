@@ -17,7 +17,7 @@ const App = () => {
   // Configs
   const modelName = "yolov8n.onnx";
   const modelInputShape = [1, 3, 1920, 1920];
-  const topk = 1;
+  const topk = 100;
   const iouThreshold = 0.45;
   const scoreThreshold = 0.25;
 
@@ -58,13 +58,16 @@ const App = () => {
         </Loader>
       )}
       <div className="header">
-        <h1>YOLOv8 Object Detection App</h1>
+        <h1>YOLOv8 Insect Detection App</h1>
         <p>
           YOLOv8 object detection application live on browser powered by{" "}
           <code>onnxruntime-web</code>
         </p>
         <p>
           Serving : <code className="code">{modelName}</code>
+        </p>
+        <p>
+        Only reporting the first 100 instances
         </p>
       </div>
 
