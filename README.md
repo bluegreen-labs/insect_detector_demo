@@ -6,7 +6,9 @@ It demonstrates the high accuracy of finding insects in/on institutional collect
 
 This demo only considers the presence or absence of any insect, not the order/family/species of insect in the image. Improvements of the model in this direction can be made, but requires (much) more annotation data (i.e. labels). Curently only 16 drawers were used across different orders to train a simple (nano scale) YOLOv8 model (in order to support it to run in a browser). A larger model, based on YOLOv8l, attained higher accuracies but is not compatible with an online demo.
 
-You can test the model on an example image of a whole-drawer insect collection as described in Mantle et al. 2012. Save the file locally and upload it for classification. 
+You can test the model on an example image of a whole-drawer insect collection as described in Mantle et al. 2012. Save the file locally and upload it for classification.
+
+[INSECT MONITOR DEMO](https://bluegreen-labs.github.io/insect_detector_demo/) / or click top right for the same link.
 
 ![](sample.jpeg)
 
